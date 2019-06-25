@@ -1,0 +1,80 @@
+﻿/* klasa1 - nagłówek zestawy obiadowe 
+   klasa2 - nazwa dania*/
+
+
+
+p.klasa1 {
+   font-family: arial;
+   font-size: x-large;
+   font-weight: bold;
+   text-align: center;
+}
+p.klasa2 {
+   font-size: 125%;
+   font-weight: bold;
+}
+p.cena {
+    font-weight: bold;
+  
+}
+td.dostawa1 {
+/*   background-color: orange;*/
+   text-align: center;
+   font-weight: bold;
+/*   color: darkred;*/
+}
+td.opakowanie1 {
+/*   background-color: orange;*/
+   text-align: right;
+/*   font-weight: bold;*/
+/*   color: darkred;*/
+}
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fefcea+0,f1da36+100;Gold+3D */
+
+/*tr {
+background: #f3e2c7;
+background: -moz-linear-gradient(top, #f3e2c7 0%, #c19e67 50%, #b68d4c 51%, #e9d4b3 100%);
+background: -webkit-linear-gradient(top, #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%);
+background: linear-gradient(to bottom, #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',GradientType=0 );
+    }
+thead {
+background: #f8ffe8;
+background: -moz-linear-gradient(top, #f8ffe8 0%, #e3f5ab 33%, #b7df2d 100%);
+background: -webkit-linear-gradient(top, #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%);
+background: linear-gradient(to bottom, #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ffe8', endColorstr='#b7df2d',GradientType=0 );
+    }*/
+
+#kontakt3 {
+/*           border: 5px solid green;        */
+/*           background: #f9ae88;*/
+    background: #f3e2c7;
+background: -moz-linear-gradient(top, #f3e2c7 0%, #c19e67 50%, #b68d4c 51%, #e9d4b3 100%);
+background: -webkit-linear-gradient(top, #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%);
+background: linear-gradient(to bottom, #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',GradientType=0 );
+           width: 50%;
+           padding: 30px;
+           margin-top: 50px;
+           margin-left: 20px;
+           font-weight: bold;
+           text-align: center;
+}
+#kontakt1 {
+/*background-image: url(scorpion-2774272_640.png);*/
+/*   text-align: bottom;*/
+    vertical-align: bottom;
+}
+
+/*#tabela1 {
+     color: #000;
+    padding: 0;
+    margin: 0;
+}
+h5.tabela1 {
+    font-family: sans-serif;
+    color: #000;
+    
+}*/

@@ -1,0 +1,174 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pizzeria Skorpion</title>
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Pizzeria Skorpion,Pizza Skorpion,  Pizza Rzeszów, Pizzeria Rzeszów, Pizzeria, Pizzeria w Rzeszowie, Najlepsza pizza w Rzeszowie, Telefon, Pizza na telefon, Jedzenie na telefon, Dania obiadowe, obiad na telefon" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style2.css" type="text/css" rel="stylesheet" media="all">
+<!--js-->
+<script src="js/jquery-1.11.1.min.js"></script> 
+<script src="js/modernizr.custom.js"></script>
+<!-- //js -->
+<script>
+	$(document).ready(function () {
+	    size_li = $("#myList li").size();
+	    x=1;
+	    $('#myList li:lt('+x+')').show();
+	    $('#loadMore').click(function () {
+	        x= (x+1 <= size_li) ? x+1 : size_li;
+	        $('#myList li:lt('+x+')').show();
+	    });
+	    $('#showLess').click(function () {
+	        x=(x-1<0) ? 1 : x-1;
+	        $('#myList li').not(':lt('+x+')').hide();
+	    });
+	});
+</script>
+</head>
+<body>
+	<!--banner-->
+	<div class="banner">
+		<div class="banner-info">
+			<div class="container">
+				<div class="logo">
+					<div class="ribbon">
+						<div class="ribbon-fold"><h1> <a href="index.html">Skorpion</a></h1></div>
+					</div>
+					<h2><b>Pizzeria Restauracja</b></h2>
+				</div>			
+				<!--navigation-->
+				<div class="top-nav">
+					<nav class="navbar navbar-default">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-center cl-effect-14">
+								<li><a href="index.html" >Pizze</a></li>
+								<li><a href="dania.html" >Dania</a></li>					
+								<li><a href="napoje.html">Napoje</a></li>
+								<li><a href="gallery.html">Galeria</a></li>	
+								<li><a href="contact.html" class="active">Kontakt</a></li>
+							</ul>	
+							<div class="clearfix"> </div>
+						</div>	
+					</nav>		
+				</div>	
+				<!--navigation-->
+			</div>
+		</div>
+	</div>
+	<!--//banner-->
+	<!-- contact -->
+	<div class="contact-top">
+		<!-- container -->
+		<div class="container">
+			<div class="contact-info">
+				<h3 class="title">Jak nas znaleźć</h3>
+				<p></p>
+			</div>
+			<div class="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20492.278197082847!2d21.980485397558603!3d50.05754576942516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x62f95320622d6a9c!2sSkorpion.+Pizzeria!5e0!3m2!1spl!2spl!4v1516985746752" allowfullscreen></iframe>
+				
+			</div>
+			<!--<div class="mail-grids">
+				<div class="col-md-6 mail-grid-left">
+					<h3 class="title">Adres</h3>
+					<h5>Rzeszów <span>ul. Stefana Starzyńskiego 2</span></h5>
+					<h4>Headquarters</h4>
+					<p>123 T. Globel Place.
+						<span>CG 09-123</span>
+						Italy, Ba. 4567
+					</p>
+					<h4>Get In Touch</h4>
+					<p>Telephone: +1 234 567 9871
+						<span>FAX: +1 234 567 9871</span>
+						E-mail: <a href="mailto:info@example.com">mail@example.com</a>
+					</p>
+				</div>
+				<div class="col-md-6 contact-form">
+					<form>
+						<input type="text" placeholder="Imię" required="">
+						<input type="text" placeholder="Email" required="">
+						<input type="text" placeholder="Temat" required="">
+						<textarea placeholder="Wiadomość" required=""></textarea>
+						<input type="submit" value="SEND">
+					</form>
+				</div>
+				<div class="clearfix"> </div>
+			</div>-->
+		</div>
+		<!-- //container -->
+	</div>
+	<!-- //contact -->
+	<!--footer-->
+		<div class="footer">
+		<div class="container">
+			<div class="col-md-3 footer-left">
+				<h4>Adres</h4>
+				<ul>
+					<li>Rzeszów</li>
+					<li>ul. Starzyńskiego 2</li>
+					<li>tel. 17 86 37 567</li>
+					<!--<li>718-749-1714</li>-->
+				</ul>				
+			</div>
+			<!--<div class="col-md-3 footer-left">
+				<h4>Popular</h4>
+				<ul>
+					<li><a href="#">Proin placerat</a></li>
+					<li><a href="#">Ipsum et rutrum</a></li>
+					<li><a href="#">Proin semper utr</a></li>
+					<li><a href="#">ligula sit amet</a></li>
+				</ul>
+			</div>-->
+			<div class="col-md-3 footer-left">
+		 		<h4>Informacje</h4>
+				<ul>
+					<li><a href="dania.html">Dania</a></li>
+					<li><a href="napoje.html">Napoje</a></li>
+					<li><a href="gallery.html">Galeria</a></li>
+<!--					-->
+					<li><a href="contact.html">Kontakt</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 footer-right">
+				<p> © 2016 Pizza . All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+				<!--<div class="icons">
+				<ul>
+					<li><a href="#" class="twitter"> </a></li>
+					<li><a href="#" class="twitter facebook"> </a></li>
+					<li><a href="#" class="twitter chrome"> </a></li>
+					<li><a href="#" class="twitter pinterest"> </a></li>
+					<li><a href="#" class="twitter linkedin"> </a></li>
+				</ul>
+			</div>-->
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//footer-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
