@@ -1,40 +1,40 @@
 ﻿/* klasa1 - nagłówek zestawy obiadowe
    klasa2 - nazwa dania*/
-#bs-example-navbar-collapse-1>ul {
-    background: rgba(41, 34, 34, 0.9);
+body {
+  font-size: 16px;
+}
+#bs-example-navbar-collapse-1 > ul {
+  background: rgba(41, 34, 34, 0.9);
 }
 
-
-
 p.klasa1 {
-    font-family: arial;
-    font-size: x-large;
-    font-weight: bold;
-    text-align: center;
+  font-family: arial;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
 }
 
 p.klasa2 {
-    font-size: 125%;
-    font-weight: bold;
+  font-size: 125%;
+  font-weight: bold;
 }
 
 p.cena {
-    font-weight: bold;
-
+  font-weight: bold;
 }
 
 td.dostawa1 {
-    /*   background-color: orange;*/
-    text-align: center;
-    font-weight: bold;
-    /*   color: darkred;*/
+  /*   background-color: orange;*/
+  text-align: center;
+  font-weight: bold;
+  /*   color: darkred;*/
 }
 
 td.opakowanie1 {
-    /*   background-color: orange;*/
-    text-align: right;
-    /*   font-weight: bold;*/
-    /*   color: darkred;*/
+  /*   background-color: orange;*/
+  text-align: right;
+  /*   font-weight: bold;*/
+  /*   color: darkred;*/
 }
 
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fefcea+0,f1da36+100;Gold+3D */
@@ -55,25 +55,43 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ffe8', end
     }*/
 
 #kontakt3 {
-    /*           border: 5px solid green;        */
-    /*           background: #f9ae88;*/
-    background: #f3e2c7;
-    background: -moz-linear-gradient(top, #f3e2c7 0%, #c19e67 50%, #b68d4c 51%, #e9d4b3 100%);
-    background: -webkit-linear-gradient(top, #f3e2c7 0%, #c19e67 50%, #b68d4c 51%, #e9d4b3 100%);
-    background: linear-gradient(to bottom, #f3e2c7 0%, #c19e67 50%, #b68d4c 51%, #e9d4b3 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f3e2c7', endColorstr='#e9d4b3', GradientType=0);
-    width: 50%;
-    padding: 30px;
-    margin-top: 50px;
-    margin-left: 20px;
-    font-weight: bold;
-    text-align: center;
+  /*           border: 5px solid green;        */
+  /*           background: #f9ae88;*/
+  background: #f3e2c7;
+  background: -moz-linear-gradient(
+    top,
+    #f3e2c7 0%,
+    #c19e67 50%,
+    #b68d4c 51%,
+    #e9d4b3 100%
+  );
+  background: -webkit-linear-gradient(
+    top,
+    #f3e2c7 0%,
+    #c19e67 50%,
+    #b68d4c 51%,
+    #e9d4b3 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    #f3e2c7 0%,
+    #c19e67 50%,
+    #b68d4c 51%,
+    #e9d4b3 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f3e2c7', endColorstr='#e9d4b3', GradientType=0);
+  width: 50%;
+  padding: 30px;
+  margin-top: 50px;
+  margin-left: 20px;
+  font-weight: bold;
+  text-align: center;
 }
 
 #kontakt1 {
-    /*background-image: url(scorpion-2774272_640.png);*/
-    /*   text-align: bottom;*/
-    vertical-align: bottom;
+  /*background-image: url(scorpion-2774272_640.png);*/
+  /*   text-align: bottom;*/
+  vertical-align: bottom;
 }
 
 /*#tabela1 {
@@ -88,5 +106,13 @@ h5.tabela1 {
 }*/
 
 nav.navbar.navbar-default ul {
-    background-color: #fff;
+  background-color: #fff;
+}
+
+.menu_row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.menu_row div:last-child {
+  width: 100%;
 }

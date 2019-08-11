@@ -6,37 +6,48 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Pizzeria Skorpion</title>
-<!-- Custom Theme files -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Pizzeria Skorpion,Pizza Skorpion,  Pizza Rzeszów, Pizzeria Rzeszów, Pizzeria, Pizzeria w Rzeszowie, Najlepsza pizza w Rzeszowie, Telefon, Pizza na telefon, Jedzenie na telefon, Dania obiadowe, obiad na telefon" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- //Custom Theme files -->
-<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
-<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
-<link href="css/style2.css" type="text/css" rel="stylesheet" media="all">
-<!--js-->
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/modernizr.custom.js"></script>
-<!-- //js -->
-<script>
-	$(document).ready(function () {
-	    size_li = $("#myList li").size();
-	    x=1;
-	    $('#myList li:lt('+x+')').show();
-	    $('#loadMore').click(function () {
-	        x= (x+1 <= size_li) ? x+1 : size_li;
-	        $('#myList li:lt('+x+')').show();
-	    });
-	    $('#showLess').click(function () {
-	        x=(x-1<0) ? 1 : x-1;
-	        $('#myList li').not(':lt('+x+')').hide();
-	    });
-	});
-</script>
+	<title>Pizzeria Skorpion</title>
+	<!-- Custom Theme files -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords"
+		content="Pizzeria Skorpion,Pizza Skorpion,  Pizza Rzeszów, Pizzeria Rzeszów, Pizzeria, Pizzeria w Rzeszowie, Najlepsza pizza w Rzeszowie, Telefon, Pizza na telefon, Jedzenie na telefon" />
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- //Custom Theme files -->
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/style2.css" type="text/css" rel="stylesheet" media="all">
+	<!--js-->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+	<!-- //js -->
+	<script>
+		$(document).ready(function () {
+			size_li = $("#myList li").size();
+			x = 1;
+			$('#myList li:lt(' + x + ')').show();
+			$('#loadMore').click(function () {
+				x = (x + 1 <= size_li) ? x + 1 : size_li;
+				$('#myList li:lt(' + x + ')').show();
+			});
+			$('#showLess').click(function () {
+				x = (x - 1 < 0) ? 1 : x - 1;
+				$('#myList li').not(':lt(' + x + ')').hide();
+			});
+		});
+	</script>
 </head>
+
 <body>
 	<!--banner-->
 	<div class="banner">
@@ -44,7 +55,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="container">
 				<div class="logo">
 					<div class="ribbon">
-						<div class="ribbon-fold"><h1> <a href="index.html">Skorpion</a></h1></div>
+						<div class="ribbon-fold">
+							<h1> <a href="index.html">Skorpion</a></h1>
+						</div>
 					</div>
 					<h2><b>Pizzeria Restauracja</b></h2>
 				</div>
@@ -52,7 +65,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="top-nav">
 					<nav class="navbar navbar-default">
 						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+								data-target="#bs-example-navbar-collapse-1">
 								<span class="sr-only">Toggle navigation</span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
@@ -62,9 +76,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav navbar-center cl-effect-14">
-								<li><a href="index.html" >Pizze</a></li>
-								<li><a href="dania.html" class="active">Dania</a></li>
-								<!-- <li><a href="napoje.html">Napoje</a></li> -->
+								<li><a href="index.html" class="active">Pizze</a></li>
+								<li><a href="dania.html">Dania</a></li>
+								<li><a href="napoje.html">Napoje</a></li>
 								<li><a href="gallery.html">Galeria</a></li>
 								<li><a href="contact.html">Kontakt</a></li>
 							</ul>
@@ -77,7 +91,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>
 	<!--//banner-->
-	<!--banner-bottom
+	<!--banner-bottom-->
 	<div class="banner-bottom">
 		<div class="container">
 			<!--<div class="banner-text">
@@ -85,136 +99,371 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<p>Special Offer to day</p>
 				<a href="#" class="btn btn-1 btn-1b">More</a>
 			</div>-->
-			<!--welcome
+			<!--welcome-->
 			<div class="welcome">
 				<h3 class="title">Witamy</h3>
 				<p>Zapraszamy na wyśmienitą pizzę</p>
 				<div class="welcome-info">
 					<div class="col-md-6 welcome-grids">
 						<div class="welcome-img">
-							<img src="images/img1.jpg" class="img-responsive zoom-img" alt=""/>
+							<img src="images/img1.jpg" class="img-responsive zoom-img" alt="" />
 						</div>
 					</div>
 					<div class="col-md-6 welcome-grids">
 						<div class="welcome-img">
-							<img src="images/img2.jpg" class="img-responsive zoom-img" alt=""/>
+							<img src="images/img2.jpg" class="img-responsive zoom-img" alt="" />
 						</div>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
 				<p> W ofercie 32 rodzaje pizzy oraz dania obiadowe </p>
 			</div>
-			<!--//welcome
+			<!--//welcome-->
 		</div>
 	</div>
-	<!--//banner-bottom-->
 
 	<!--Nowe Menu-->
 	<div class="menu">
-    <div class="container" id="tabela1">
+		<div class="container" id="tabela1">
 
-   <table  class="table table-striped table-hover  ">
-  <thead style="background-color:  #fff8e5;">
+			<table class="table table-striped table-hover  ">
 
-      <p class="klasa1" >Zestawy obiadowe</p>
+				<tbody>
+					<tr>
+						<th scope="row"></th>
+						<td>
+							<p class="klasa1">Wyśmienita pizza na <i>grubym</i> lub <i>cienkim</i> cieście</p>
+						</td>
+						<td id="kontakt1"><b>średnia</b></td>
+						<td id="kontakt1"><b>duża</b></td>
+					</tr>
+					<tr>
+						<th scope="row">1</th>
+						<td>
+							<h5><b>Scorpio</b></h5>
+							sos, szynka, boczek, pieczarki, papryka, kukurydza, ser, przyprawy
+						</td>
+						<td><b>16 zł</b></td>
+						<td><b>21 zł</b></td>
+					</tr>
+					<tr>
+						<th scope="row">2</th>
+						<td>
+							<h5><b>Capriciosa</b></h5> sos, salami, pieczarki, kukurydza, papryka, ser, przyprawy
+						<td><b>14 zł</b></td>
+						<td><b>19 zł</b></td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+						<td>
+							<h5><b>Wegetariana</b></h5> sos, groszek, kukurydza, oliwki, pieczarki, ser, przyprawy
+						<td><b>12 zł</b></td>
+						<td><b>17 zł</b></td>
+					</tr>
+					<tr>
+						<th scope="row">4</th>
+						<td>
+							<h5><b>Marinara</b></h5> sos,pomidor, pieczarki, kukurydza, czosnek, cebula, ser, przyprawy
+						<td><b>13 zł</b></td>
+						<td><b>18 zł</b></td>
+					</tr>
+					<tr>
+						<th scope="row">5</th>
+						<td>
+							<h5><b>Vesuviana</b></h5> sos, szynka, kukurydza, pomidor, papryka, oliwki, ser, przyprawy
+						<td><b>14 zł</b></td>
+						<td><b>19 zł</b></td>
+					</tr>
+					<tr>
+						<th scope="row">6</th>
+						<td>
+							<h5><b>Gustosa</b></h5>
+							sos, boczek, pieczarki, cebula, ser, przyprawy
+						</td>
+						<td><b>14 zł</b></td>
+						<td><b>19 zł</b></td>
+					</tr>
+
+					<tr>
+						<th scope="row">7</th>
+						<td>
+							<h5><b>Havana</b></h5>
+							sos, ananas, brzoskwinia, banan, oliwki, ser, przyprawy
+						</td>
+						<td><b>12 zł</b></td>
+						<td><b>17 zł</b></td>
+					</tr>
+
+					<tr>
+						<th scope="row">8</th>
+						<td>
+							<h5><b>Venezia</b></h5>
+							sos, szynka, salami, kiełbasa, baleron, ser, przyprawy
+						</td>
+						<td><b>16 zł</b></td>
+						<td><b>21 zł</b></td>
+					</tr>
+
+					<tr>
+						<th scope="row">9</th>
+						<td>
+							<h5><b>Bolero</b></h5>
+							sos, baleron, cebula, groszek, pieczarki, papryka, ser, przyprawy
+						</td>
+						<td><b>14 zł</b></td>
+						<td><b>19 zł</b></td>
+					</tr>
+
+					<tr>
+						<th scope="row">10</th>
+						<td>
+							<h5><b>Napolitana</b></h5>
+							sos, tuńczyk, pomidor, pieczarki, papryka, ser, przyprawy
+						</td>
+						<td><b>14 zł</b></td>
+						<td><b>19 zł</b></td>
+					</tr>
+
+					<tr>
+						<th scope="row">11</th>
+						<td>
+							<h5><b>Frutti Di Mare</b></h5>
+							sos, małże, krewetki, tuńczyk, czosnek, ser, przyprawy
+						</td>
+						<td><b>16 zł</b></td>
+						<td><b>21 zł </b></td>
+					</tr>
+
+					<tr>
+						<th scope="row">12</th>
+						<td>
+							<h5><b>Primavera</b></h5>
+							sos, szynka, ananas, ser, przyprawy
+						</td>
+						<td><b>12 zł</b></td>
+						<td><b>17 zł</b></td>
+					</tr>
+
+					<tr>
+						<th scope="row">13</th>
+						<td>
+							<h5><b>Diavolo</b></h5>
+							sos, kurczak, pomidor, papryka, pieczarki, ser, przyprawy
+						</td>
+						<td><b>14 zł</b></td>
+						<td><b>19 zł</b></td>
+					</tr>
+
+					<tr>
+						<th scope="row">14</th>
+						<td>
+							<h5><b>Margharita</b></h5>
+							sos, ser, przyprawy
+						</td>
+						<td><b>10 zł</b></td>
+						<td><b>14 zł</b></td>
+					</tr>
+
+					<tr>
+						<th scope="row">15</th>
+						<td>
+							<h5><b>Pepperoni</b></h5>
+							sos, papryka, salami, fasola czerwona ,chilli, ser, przyprawy - (ostra)
+						</td>
+						<td><b>14 zł</b></td>
+						<td><b>19 zł</b></td>
+					</tr>
+
+					<tr>
+						<th scope="row">16</th>
+						<td>
+							<h5><b>Mexicana</b></h5>
+							sos,cebula, kukurydza, fasola czerwona, papryka, salami, kiełbasa, chilli, ser, przyprawy, -
+							(ostra)
+						</td>
+						<td><b>16 zł</b></td>
+						<td><b>21 zł</b></td>
+					</tr>
+
+					<tr>
+						<th scope="row">17</th>
+						<td>
+							<h5><b>Diablo</b></h5>
+							sos, pieczarki, czosnek, chili, kurczak, kukurydza, ser, przyprawy- (ostra)
+						</td>
+						<td><b>14 zł</b></td>
+						<td><b>19 zł</b></td>
+					</tr>
+
+					<tr>
+						<th scope="row">18</th>
+						<td>
+							<h5><b>Tunezja</b></h5>
+							sos, cebula, tuńczyk, pomidor, ogórek, ser, przyprawy
+						</td>
+						<td><b>14 zł</b></td>
+						<td><b>19 zł</b></td>
+					</tr>
+
+					<tr>
+						<th scope="row">19</th>
+						<td>
+							<h5><b>Spinaci</b></h5>
+							sos, ser feta, szpinak, pomidor, ser, przyprawy
+						</td>
+						<td><b>13 zł</b></td>
+						<td><b>18 zł</b></td>
+					</tr>
+					<tr>
+						<th scope="row">20</th>
+						<td>
+							<h5><b>Marco</b></h5>
+							sos, pieczarki, szynka, kukurydza, ser, przyprawy
+						</td>
+						<td><b>13 zł</b></td>
+						<td><b>18 zł</b></td>
+					</tr>
+					<tr>
+						<th scope="row">21</th>
+						<td>
+							<h5><b>Wegeteriana II</b></h5>
+							sos, pieczarki, brokuły, kukurydza, papryka, ser, przyprawy
+						</td>
+						<td><b>12 zł</b></td>
+						<td><b>17 zł</b></td>
+					</tr>
+
+					<tr>
+						<th scope="row">22</th>
+						<td>
+							<h5><b>San Remo</b></h5>
+							sos, pieczarki, czosnek, cebula, szpinak, pomidor, ser, przyprawy
+						</td>
+						<td><b>14 zł</b></td>
+						<td><b>19 zł</b></td>
+					</tr>
+					<tr>
+						<th scope="row">23</th>
+						<td>
+							<h5><b>Tropicana</b></h5>
+							sos, kurczak, ananas, kukurydza, pomidor, ser, przyprawy
+						</td>
+						<td><b>14 zł</b></td>
+						<td><b>19 zł</b></td>
+					</tr>
+					<tr>
+						<th scope="row">24</th>
+						<td>
+							<h5><b>Altono</b></h5>
+							sos, tuńczyk, pieczarki, cebula, kukurydza, majonez, ser, przyprawy
+						</td>
+						<td><b>14 zł</b></td>
+						<td><b>19 zł</b></td>
+					</tr>
 
 
-  </thead>
-  <tbody>
-     <tr>
-      <th scope="row"></th>
-      <td> </td>
-      <td> </td>
-      <td>cena   </td>
-    </tr>
-     <tr>
-      <th scope="row">1</th>
-      <td ><p class="klasa2">Placki po węgiersku</p></td>
-         <td ><p class="klasa3">cztery placki ziemniaczane z gulaszem mięsnym, surówka</p></td>
-         <td ><p class="cena">16 zł</p></td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td ><p class="klasa2">Gyros</p></td>
-         <td ><p class="klasa3">grilowane mięso z kurczaka, ryż, surówka, sosy</p></td>
-         <td ><p class="cena">17 zł</p></td>
-    </tr>
-     <tr>
-      <th scope="row">3</th>
-      <td ><p class="klasa2">Gyros z warzywami</p></td>
-         <td ><p class="klasa3">grilowane mięso z kurczaka z warzywami, ryż, surówka, sosy</p></td>
-         <td ><p class="cena">18 zł</p></td>
-    </tr>
-       <tr>
-      <th scope="row">4</th>
-      <td ><p class="klasa2">Kurczak po kantońsku</p></td>
-         <td ><p class="klasa3">kurczak w sosie z kiełkami sojowymi i grzybami mun, ryż, surówka</p></td>
-         <td ><p class="cena">17 zł</p></td>
-    </tr>
-       <tr>
-      <th scope="row">5</th>
-      <td ><p class="klasa2">Golonka pieczona</p></td>
-         <td ><p class="klasa3">golonka wieprzowa, ziemniaki obsmażane, surówka, chrzan, musztarda</p></td>
-         <td ><p class="cena">19 zł</p></td>
-    </tr>
-       <tr>
-      <th scope="row">6</th>
-      <td ><p class="klasa2">Golonka po bawarsku</p></td>
-         <td ><p class="klasa3">golonka z warzywami w piwie, ziemniaki obsmażane, surówka, chrzan, musztarda</p></td>
-         <td ><p class="cena">20 zł</p></td>
-    </tr>
-       <tr>
-      <th scope="row">7</th>
-      <td ><p class="klasa2">Kotlet szefa</p></td>
-         <td ><p class="klasa3">kotlet schabowy nadziewany serem i szynką, frytki, surówka</p></td>
-         <td ><p class="cena">18 zł</p></td>
-    </tr>
-       <tr>
-      <th scope="row">8</th>
-      <td ><p class="klasa2">Schab po hawajsku</p></td>
-         <td ><p class="klasa3">schab wieprzowy zapiekany w serze z ananasem i brzoskwinią, ziemniaki, surówka</p></td>
-         <td ><p class="cena">17 zł</p></td>
-    </tr>
-       <tr>
-      <th scope="row">9</th>
-      <td ><p class="klasa2">Schab z pieczarkami</p></td>
-         <td ><p class="klasa3">schab wieprzowy zapiekany w serze z pieczarkami, ziemniaki, surówka</p></td>
-         <td ><p class="cena">17 zł</p></td>
-    </tr>
-       <tr>
-      <th scope="row">10</th>
-      <td ><p class="klasa2">Schab z pieczarkami i z żurawiną</p></td>
-         <td ><p class="klasa3">schab wieprzowy zapiekany w serze z pieczarkami i żurawiną, ziemniaki, surówka</p></td>
-         <td ><p class="cena">18 zł</p></td>
-    </tr>
-       <tr>
-      <th scope="row">11</th>
-      <td ><p class="klasa2">Schab po kasztelańsku</p></td>
-         <td ><p class="klasa3"></p>kotlet schabowy nadziewany serem, boczkiem, ogórkiem, cebulą z dodatkiem chrzanu, ziemniaki surówka</td>
-         <td ><p class="cena">18 zł</p></td>
-    </tr>
-       <tr>
-      <th scope="row">12</th>
-      <td ><p class="klasa2">Schab po meksykańsku</p></td>
-         <td ><p class="klasa3">schab wieprzowy zapiekany w serze z pieczarkami i jalapeno, ziemniaki, surówka</p></td>
-         <td ><p class="cena">18 zł</p></td>
-    </tr>
-      <tr><th scope="row"></th>
-          <td></td>
-          <td class="opakowanie1"><p class="opakowanie2"> opakowanie do zestawów obiadowych </p> </td><td>1 zł</td>
-      </tr>
-      <tr>
-           <th scope="row"></th>
-          <td></td>
-          <td class="dostawa1"><p class="dostawa2">dostawa dotyczy ograniczonej strefy     </p> <a href="tel: 17 86 37 567 "><img src="telephone.png" alt="17 86 37 567" /></a></td>
-          <td></td>
+					<tr>
+						<th scope="row">25</th>
+						<td>
+							<h5><b>Bella</b></h5>
+							sos, szynka, cebula, pomidor, ogórek, szpinak, ser, przyprawy
+						</td>
+						<td><b>14 zł</b></td>
+						<td><b>19 zł</b></td>
+					</tr>
+					<tr>
+						<th scope="row">26</th>
+						<td>
+							<h5><b>Cztery Sery</b></h5>
+							sos, sery; holenderski, mozzarella, gorgonzola, błękitny lazur
+						</td>
+						<td><b>15 zł</b></td>
+						<td><b>19 zł</b></td>
+					</tr>
+					<tr>
+						<th scope="row">27</th>
+						<td>
+							<h5><b>Węgierska</b></h5>
+							(cienkie ciasto) sos, pieczarki, cebula, gulasz węgierski, ser, przyprawy
+						</td>
+						<td><b> </b></td>
+						<td><b>19 zł </b></td>
+					</tr>
+					<tr>
+						<th scope="row">28</th>
+						<td>
+							<h5><b>Brocoli</b></h5>
+							sos, kurczak (kebab), czosnek, feta, brokuły, kukurydza, słonecznik, ser, przyprawy
+						</td>
+						<td><b>16 zł</b></td>
+						<td><b>21 zł</b></td>
+					</tr>
+					<tr>
+						<th scope="row">29</th>
+						<td>
+							<h5><b>Acapulco</b></h5>
+							sos, boczek, pieczarki, cebula, oliwki, jalapeno, ser, przyprawy (lekko ostra)
+						</td>
+						<td><b>15 zł</b></td>
+						<td><b>20 zł</b></td>
+					</tr>
+					<tr>
+						<th scope="row">30</th>
+						<td>
+							<h5><b>Latino</b></h5>
+							sos, kurczak, cebula, pieczarki, oliwki, jalapeno, ser, przyprawy (lekko ostra)
+						</td>
+						<td><b>15zł</b></td>
+						<td><b>20 zł</b></td>
+					</tr>
+					<tr>
+						<th scope="row">31</th>
+						<td>
+							<h5><b>Bonita</b></h5>
+							sos, kurczak, czosnek, kukurydza, ananas, jalapeno, ser, przyprawy (lekko ostra)
+						</td>
+						<td><b>15 zł</b></td>
+						<td><b>20 zł</b></td>
+					</tr>
+					<tr>
+						<th scope="row">32</th>
+						<td>
+							<h5><b>Etna</b></h5>
+							sos, kurczak (kebab), cebula, pieczarki, pomidor, jalapeno, ser, przyprawy (lekko ostra)
+						</td>
+						<td><b>15 zł</b></td>
+						<td><b>20 zł</b></td>
+					</tr>
 
-      </tr>
-  </tbody>
-</table>
-      </div>
-
-    </div>
+					<tr>
+						<th scope="row"></th>
+						<td>dodatki:</td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row"></th>
+						<td><b>duża pizza</b> ser 4zł, dodatki mięsne 3 zł, inne 1,50 zł</td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row"></th>
+						<td><b>średnia pizza</b> ser 3zł, dodatki mięsne 2 zł, inne 1,00 zł</td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row"></th>
+						<td align="center"><b>dostawa dotyczy ograniczonej strefy
+							</b><a href="tel: 17 86 37 567 "><img src="telephone.png" alt="17 86 37 567" /></a> </td>
+						<td></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
 	<!--menu-
 	<div class="menu">
 		<div class="container">
@@ -673,13 +922,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</ul>
 			</div>-->
 			<div class="col-md-3 footer-left">
-		 		<h4>Informacje</h4>
+				<h4>Informacje</h4>
 				<ul>
-					<li><a href="index.html">Strona Główna</a></li>
-					<li><a href="index.html#tabela1">Pizze</a></li>
 					<li><a href="dania.html">Dania</a></li>
-					<!-- <li><a href="napoje.html">Napoje</a></li> -->
+					<li><a href="napoje.html">Napoje</a></li>
 					<li><a href="gallery.html">Galeria</a></li>
+					<!--					-->
 					<li><a href="contact.html">Kontakt</a></li>
 				</ul>
 			</div>
@@ -701,7 +949,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!--//footer-->
 	<!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/bootstrap.js"></script>
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/bootstrap.js"></script>
 </body>
+
 </html>
