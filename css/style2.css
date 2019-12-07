@@ -116,3 +116,7 @@ nav.navbar.navbar-default ul {
 .menu_row div:last-child {
   width: 100%;
 }
+
+body > div.banner > div > div > div.top-nav > nav > div.navbar-header > button {
+  background-color: #e8ba53;
+}
